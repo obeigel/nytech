@@ -57,7 +57,7 @@ class Companies extends Component {
                             {
                                 this.props.companies.map((company, index) => {
                                     return (
-                                        <div key={index} className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
+                                        <div key={index} className="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
                                             <Card company={company} slug={company.slug} />
                                         </div>
                                     )
